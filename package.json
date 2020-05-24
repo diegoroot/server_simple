@@ -1,0 +1,23 @@
+{
+  "name": "server_simple",
+  "version": "1.0.0",
+  "description": "notificaciones con mysql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "yo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "firebase-admin": "^8.12.1",
+    "moment": "^2.26.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "req-flash": "0.0.3",
+    "system-sleep": "^1.3.6"
+  }
+}
